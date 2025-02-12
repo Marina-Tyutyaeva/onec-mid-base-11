@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b19ca416-dcc7-444f-8dc9-7e150ae622ed">
+  <producedTypes>
+    <objectType typeId="1bcafcf2-8e6d-430e-9c2a-e00c99c0783d" valueTypeId="4270a5bb-7a33-4511-93b3-673b3a4dfa4b"/>
+    <refType typeId="c529fba7-83a0-4d89-8187-6974854afdd8" valueTypeId="84992998-fc49-4e50-b532-2fe95033b36f"/>
+    <selectionType typeId="2b9f3fbe-a9ee-4116-9e52-a19b17746161" valueTypeId="f862d6bd-5609-48c6-847f-d5de7b220ebd"/>
+    <listType typeId="a975ab33-3074-4651-8ba2-e00de2048402" valueTypeId="79799204-ea73-4cfc-8215-15039251d383"/>
+    <managerType typeId="946d8dce-ca86-4dbf-9734-8907817473e5" valueTypeId="5a21233e-84fc-459d-8492-ef21fe99b805"/>
+  </producedTypes>
+  <name>ДП_СписокДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список должностей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДП_СписокДолжностей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДП_СписокДолжностей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список должностей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДП_СписокДолжностей.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="b72c6d33-e29a-40ba-9778-955a55147606">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
